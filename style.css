@@ -1,0 +1,156 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body, p, h1 {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "Adobe Caslon Pro", "Times New Roman", Times, serif;
+	background-color: #C0C0C0;
+}
+.container {
+	width: 900px;
+	margin: auto;
+	background-color: #F3F3F3;
+}
+.content {
+	width: 900px;
+	background-color: #F3F3F3;
+	box-shadow: 0 0 10px #666;
+
+	float: left;
+	padding: 0 0 30px 0;
+	margin: 0 0 60px 0;
+}
+/* home page */
+/* name and email on top */
+.name {
+	color: #000;
+	font-family: "Heiti TC";
+	font-size: 85px;
+	margin: 20px 0 20px 20px;
+	float: left;
+	width: 800px;
+	text-decoration: none;
+}
+.smaller {
+	font-size: 62px;
+}
+.email {
+	font-size: 20px;
+	margin: 0 0 0 5px;
+}
+/* navigation bar */
+.navigation_bar {
+	background-color: #C0C0C0;
+	height: 30px;
+	width: 75%;
+	float: left;
+	marigin: 0 100px 0 0;
+	}
+.navigation_bar_container {
+	width: 100%;
+	float: left;
+	margin: 0;
+	overflow: hidden;
+}
+.nav_options {
+	margin: 2px 0 0 0;
+}
+/* nav links */
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+ul li {
+	display: inline;
+	list-style: none;
+}
+ul li a {
+	text-decoration: none;
+	color: #000;
+	padding: 15px 25px;
+	height: 40px;
+	font-size: 24px;
+}
+ul li a:hover {
+	color: #E17D5B;
+}
+ul li a:link {
+}
+ul li a:active {
+}
+ul li a:visited {
+}
+ul li a.current {
+	color: #FFF;
+	background-color: #888;
+}
+ul li .nav_contact {
+	margin: auto 35px auto auto;
+}
+ul li ul {
+	display: none;
+}
+/* ////////////////////////////// */
+/* PAGE: readings */
+/* readings - navigation */
+.reading_nav_container {
+	width: 75%;
+	height: 22px;
+	background-color: #888;
+	float: left;
+	margin: 0 0 10px 0;
+}
+.reading_nav_container a {
+	text-decoration: none;
+	color: #fff;
+	margin: 2px 0 0 0;
+	float: left;
+	margin: 2px 0 0 20px;
+
+}
+.reading_nav_container a:hover {
+	color: #E17D5B;
+}
+.reading_nav_container a:link {
+}
+.reading_nav_container a:active {
+}
+.reading_nav_container a:visited {
+}
+.reading_nav_container a.current {
+}
+/* */
+.readings {
+	margin: 0 20px;
+	float: left;
+}
+.readings h1 {
+	color: #A22A0E;
+	background-color: #E17D5B;
+	float: left;
+	width: 788px;
+	font-size: 25px;
+	margin: 10px 0 0 30px;
+}
+.readings .h1_text {
+	margin: 2px 0 0 20px;
+	float: left;
+}
+.readings h2 {
+	font-size: 25px;
+	margin: 15px 0 0 0;
+	float: left;
+	font-family: "Helvetica Neue";
+}
+.readings p {
+	float: left;
+	font-family: "Times New Roman";
+	margin: 10px 0;
+	font-size: 17px;
+
+}

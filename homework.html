@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Katie Soldau - Homework</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<script>
+$(document).ready(function() {
+	$("a.name").click(function() {
+		$("p").toggleClass("name2", 300);
+	});
+});
+</script>
+<div class="container">
+    <div class="content">
+        <div id="top"></div>
+        <div class="name">
+            <p>K<span class="smaller">ATIE</span> <span class= "taller">S</span><span class="smaller">OLDAU</span> </p>
+            <p class="email"> soldau.k@husky.neu.edu </p>
+        </div>
+        <div class="navigation_bar_container">
+            <div class="navigation_bar">
+                <ul class="nav_options">
+                    <li><a href="index.html">about</a></li>
+                    <li><a href="readings.html">readings</a></li>
+                    <li><a href="homework.html" class="current">homework</a></li>
+                    <li><a href="#">team project</a><li>
+                    <!-- <li><a href="contact.html" class="nav_contact">contact</a></li>-->
+                </ul>
+            </div>
+        </div>
+        <!-- for navigation --> 
+        
+    </div>
+    <!-- for content --> 
+</div>
+<!-- for container -->
+</body>
+</html>
