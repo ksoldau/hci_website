@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Katie Soldau - H2</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="h2">
+<script>
+$(document).ready(function() {
+	$("a.name").click(function() {
+		$("p").toggleClass("name2", 300);
+	});
+});
+</script>
+<div class="container">
+    <div class="content">
+        <div id="top"></div>
+        <div class="name">
+            <p>K<span class="smaller">ATIE</span> <span class= "taller">S</span><span class="smaller">OLDAU</span> </p>
+            <p class="email"> soldau.k@husky.neu.edu </p>
+        </div>
+        <div class="navigation_bar_container">
+            <div class="navigation_bar">
+                <ul class="nav_options">
+                    <li><a href="index.html">about</a></li>
+                    <li><a href="readings.html">readings</a></li>
+                    <li><a href="homework.html" class="current">homework</a></li>
+                    <li><a href="#">team project</a><li>
+
+                    <!-- <li><a href="contact.html" class="nav_contact">contact</a></li>-->
+                </ul>
+            </div>
+        </div>
+        <!-- for navigation --> 
+        
+        <div class="readings">
+        
+        <h1><div class="h1_text">Homework 2</div></h1>
+        <div class="shazam">
+        <h2>Good User-Interface Design #1 - Shazam</h2>
+        <p>I use Shazam a lot while listening to the radio and found it easy to use from the first time I ever opened up the app. Don’t know that new song on the radio? The mobile interface lets you identify music that you’re listening to; open up the app, press one button, and Shazam will tell you the song’s name, artist, and album. I find the main button on the app to be a particularly good design (see image below on the left). Virtual physical constraints make it so the user really only has one option of which button to press. Then, once you press the button, you can watch a virtual representation of the song being processed by the application (see image below on the right); the responsiveness of the app is almost immediate and fits the users needs. This allows the user to know how much longer they need to keep quiet in order for the app to process the song and lets the user know the system is working on an answer, but will get it to them soon. </p>
+        <div class="shazam_touch_pic"></div>
+        <div class="shazam_listening_pic"></div>
+        </div>
+        
+        <div class="ical"><h2>Good User-Interface Design #2 - iCal</h2>
+        <p> Another user interface I really enjoy is iCal/Calendar, which is a built in application on my Mac that allows me to keep track of my obligations and time commitments. I find that the different user interface views are extremely helpful (you can view your schedule by day, week, month, or year (see below)). I also think that inputing events into the calendar is intuitive and really easy. The week and month interface view is laid out much like a normal wall-mounted calendar and the day view is laid out much like that of a day planner. This familiarity makes the application really easy. I’m familiar with how to use and organize information on a calendar or in an agenda book, so that knowledge can be used in this virtual interface. Inputting events is simple because all you have to do is double-click where you want to put your new event, then adjust the info as needed (see below, bottom right). It isn’t frustrating to make mistakes because deleting or editing events is done with just a few clicks of the button, which makes for great recoverability. 
+</p>
+<div class="ical_pics">
+<div class="ical_day_pic"></div>
+<div class="ical_week_pic"></div>
+<div class="ical_month_pic"></div>
+<div class="ical_editing_pic"></div>
+</div></div>
+
+<div class="snapchat">
+<h2>Bad User-Interface Design #1 - Snapchat</h2>
+  <p>Snapchat, a mobile application that lets you share pictures and video messages with friends for a specified limited amount of time, has a horrible interface. The buttons/icons on this app are pretty awful (see image below on left). Whenever I receive a new message from my friend I find it takes me a while to locate it. Even though there aren’t that many button options to click on, I  don’t associate the box icon with messaging. This is a familiarity problem. Had the box icon always been associated with messaging in other apps perhaps this wouldn’t be a problem, but this new box icon has seemingly nothing to do with sending or receiving messages. The big blue button that takes pictures/videos is also problematic. A couple of weeks ago when there was an update it took me several days to figure out how to take a video. It wasn’t until I had a friend explain it to me that I figured out that to record a video you had to hold down the big blue button (see image below on right). The predictability of this big blue button wasn’t great because I had already been taught that pressing the big blue button meant taking a picture. Now that further functionality had been added yet nothing about the design had changed I had no reason to think that performing a different operation on the same button would produce a new outcome.</p>
+
+<p class="shazam_second_paragraph">
+ I think it may have been designed this way because the designers didn’t want to clutter the app with multiple buttons. Perhaps the designers couldn’t think of a better icon to symbolize information about both messaging and friend requests. When designing the big blue button they may have  thought they were making an ingenious choice that could save space by making separate operations on the same button perform different tasks. To solve these problems I would move the friend requests to the ‘My Friends’ section of the app, which would then allow the box icon to change to something solely symbolizing sent and received messages such as text bubbles or envelopes. I would then then add a switch (like that in the iPhone’s camera app) to toggle between picture mode and video mode. </p>
+  <div class="snapchat_pics"><div class="snapchat_recording_pic"></div>
+ <div class="snapchat_button_pic"></div> </div>
+</div>
+
+<div class="timer"><br />
+<h2>Bad User-Interface Design #2 - Oven Timer</h2>
+<p>Every single time I go to use the timer on my dorm oven I’m uncertain as to whether or not I’ve correctly set it. The interface in that area of the stove is supposed to allow you to preheat the oven, set the clock, and set the timer. However, once I press ‘Timer’ then hit the up arrows for hours and minutes to set it, I keep looking for a way to start the timer. What I frequently fail to realize is that once I stop changing the desired length of time, the timer automatically begins counting down. The synthesizability of the system isn’t great because I’m not sure what’s supposed to happen after I input the length of time. In order to get some feedback from the system I have to wait a minute to make sure the timer has actually begun to count down because the timer only presents time in minute increments. I frequently will hit the ‘Timer’ button again when trying to make sure that I’ve correctly set the timer, but that just cancels the entire action and then I have to set it again. There’s no undo button on the stove, so the recoverability is pretty much non-existent, which gets frustrating even though it’s only a minor inconvenience.</p>
+<p class="timer_second_paragraph">
+I think it may have been designed this way because it technically means less work for the user. Once the user inputs the desired time they don’t have to press any more buttons. However, there’s no way for the user to know that they’ve done the correct sequence of actions to perform the task they wish to complete, so this isn't actually all that helpful. To fix this I would add an ‘OK’ button and a timer indicator light to the interface. This would ensure users would know how to set the timer (by pressing OK) and when the timer was on (blinking light). </p>
+</div>
+<div class="timer_pic"></div>
+
+
+
+</div>
+    <!-- for content --> 
+</div>
+<!-- for container -->
+</body>
+</html>

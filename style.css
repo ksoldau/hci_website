@@ -175,12 +175,14 @@ body {
 	margin: 15px 0 0 0;
 	float: left;
 	font-family: "Minion Pro";
+	width: 100%;
 }
 .readings p {
 	float: left;
 	font-family: "Avenir", Arial, Helvetica, sans-serif;
 	margin: 10px;
 	font-size: 15px;
+	text-align: justify;
 }
 /***************/
 .week_pic {
@@ -241,4 +243,99 @@ body {
 }
 .h1 h2 {
 	margin: 40px 0 0 0;
+}
+.shazam_touch_pic {
+	width: 200px;
+	height: 300px;
+	background-image: url(images/shazam_touch.jpg);
+	box-shadow: 0 0 5px #666;
+	float: left;
+	margin: 20px 0 0 170px;
+}
+.shazam_listening_pic {
+	width: 200px;
+	height: 300px;
+	background-image: url(images/shazam_listening.jpg);
+	box-shadow: 0 0 5px #666;
+	float: left;
+	margin: 20px 190px 0 100px;
+	padding: 
+}
+.shazam {
+	width: 100%;
+	float: left;
+	margin: 0 0 30px 0;
+}
+.ical_day_pic, .ical_week_pic, .ical_month_pic, .ical_editing_pic {
+	width: 400px;
+	height: 234px;
+	box-shadow: 0 0 5px #666;
+	float: left;
+	margin: 10px 30px 0 0;
+}
+.ical_day_pic {
+	background-image: url(images/ical_day_400.jpg);
+	width: 400px;
+	height: 234px;
+	margin: 10px 15px 0 15px;
+}
+.ical_week_pic {
+	background-image: url(images/ical_week.jpg);
+}
+.ical_month_pic {
+	background-image: url(images/ical_month.jpg);
+		margin: 20px 15px 0 15px;
+
+}
+.ical_editing_pic {
+	background-image: url(images/ical_editing.jpg);
+			margin: 20px 20px 0 0;
+
+}
+.ical_pics {
+	width: 100%;
+	heigth: 400px;
+}
+.ical {
+	width: 100%;
+	float: left;
+		margin: 0 0 30px 0;
+}
+.snapchat_button_pic, .snapchat_recording_pic {
+	width: 169px;
+	height: 300px;
+	box-shadow: 0 0 5px #666;
+	float: right;
+}
+.snapchat_button_pic {
+	background-image: url(images/snapchat_button.jpg);
+	margin: 0 0 0 20px;
+}
+.snapchat_recording_pic {
+	background-image: url(images/snapchat_recording.jpg);
+	margin: 0 20px 0 40px;
+}
+
+.snapchat_pics {
+	float: right;
+	margin: 10px 0 0 0;
+}
+.snapchat {
+	width: 100%;
+	float: left;
+	margin: 0 0 30px 0;
+}
+.shazam_second_paragraph {
+	width: 400px;
+}
+.timer_second_paragraph {
+	width: 400px;
+}
+.timer_pic {
+	width: 400px;
+	height: 219px; 
+	float: right;
+	background-image: url(images/timer.jpg);
+	box-shadow: 0 0 5px #666;
+	margin: 0 10px 0 0;
 }
