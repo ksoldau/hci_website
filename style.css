@@ -6,7 +6,7 @@ html, body, p, h1 {
 	padding: 0;
 }
 body {
-	font-family: "Adobe Caslon Pro", "Times New Roman", Times, serif;
+	font-family: "Avenir", "Times New Roman", Times, serif;
 	background-color: #C0C0C0;
 }
 .container {
@@ -18,7 +18,6 @@ body {
 	width: 900px;
 	background-color: #F3F3F3;
 	box-shadow: 0 0 10px #666;
-
 	float: left;
 	padding: 0 0 30px 0;
 	margin: 0 0 60px 0;
@@ -48,7 +47,7 @@ body {
 	width: 75%;
 	float: left;
 	marigin: 0 100px 0 0;
-	}
+}
 .navigation_bar_container {
 	width: 100%;
 	float: left;
@@ -59,40 +58,41 @@ body {
 	margin: 3px 0 0 0;
 }
 /* nav links */
-ul {
+.navigation_bar ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 	text-align: right;
 }
-ul li {
+.navigation_bar ul li {
 	display: inline;
 	list-style: none;
 }
-ul li a {
+.navigation_bar ul li a {
 	text-decoration: none;
 	color: #000;
 	padding: 15px 25px;
 	height: 40px;
 	font-size: 24px;
+	font-family: "Devanagari MT";
 }
-ul li a:hover {
+.navigation_bar ul li a:hover {
 	color: #E17D5B;
 }
-ul li a:link {
+.navigation_bar ul li a:link {
 }
-ul li a:active {
+.navigation_bar ul li a:active {
 }
-ul li a:visited {
+.navigation_bar ul li a:visited {
 }
-ul li a.current {
+.navigation_bar ul li a.current {
 	color: #FFF;
 	background-color: #888;
 }
-ul li .nav_contact {
+.navigation_bar ul li .nav_contact {
 	margin: auto 35px auto auto;
 }
-ul li ul {
+.navigation_bar ul li ul {
 	display: none;
 }
 /* ////////////////////////////// */
@@ -106,7 +106,7 @@ ul li ul {
 /* ////////////////////////////// */
 /* PAGE: about */
 .about_text {
-	width: 550px; 
+	width: 550px;
 	float: left;
 	font-family: "Avenir", Arial, Helvetica, sans-serif;
 	font-size: 15px;
@@ -116,7 +116,6 @@ ul li ul {
 .about_text p {
 	margin: 20px;
 }
-	
 .headshot {
 	background-image: url(picture200.jpg);
 	width: 200px;
@@ -125,47 +124,38 @@ ul li ul {
 	margin: 50px 100px 0 0;
 	border: 1px solid #000;
 }
-
-	
 /* ////////////////////////////// */
 /* PAGE: readings */
 /* readings - navigation */
-.back_to_top {
-		margin: 10px 400px 0 400px;
-		float: left;
-
-}
-.reading_nav_container {
-	width: 75%;
-	height: 22px;
-	background-color: #888;
+.list {
 	float: left;
-	margin: 0 0 10px 0;
+	width: 300px;
 }
-.reading_nav_container a {
-	text-decoration: none;
-	color: #fff;
-	margin: 2px 0 0 0;
-	float: left;
-	margin: 2px 0 0 20px;
-
+.list li {
+	margin: 12px 0 0 0;
 }
-.reading_nav_container a:hover {
+.list li a {
+	color: #333;
+	font-size: 20px;
+}
+.list li a:hover {
 	color: #E17D5B;
 }
-.reading_nav_container a:link {
+.list li a:link {
 }
-.reading_nav_container a:active {
+.list li a:active {
 }
-.reading_nav_container a:visited {
+.list li a:visited {
 }
-.reading_nav_container a.current {
+.list li a.current {
+	color: #FFF;
+	background-color: #888;
 }
 /* */
 .readings {
 	margin: 0 20px;
 	float: left;
-	font-family: "Avenir", Arial, Helvetica, sans-serif;
+	font-family: "Devanagari Sangam MN", Arial, Helvetica, sans-serif;
 }
 .readings h1 {
 	color: #A22A0E;
@@ -173,17 +163,18 @@ ul li ul {
 	float: left;
 	width: 788px;
 	font-size: 25px;
-	margin: 10px 0 0 36px;
+	margin: 20px 0 0 36px;
 }
 .readings .h1_text {
-	margin: 2px 0 0 20px;
+	margin: 4px 0 0 20px;
 	float: left;
+	font-family: "Devanagari MT";
 }
 .readings h2 {
 	font-size: 25px;
 	margin: 15px 0 0 0;
 	float: left;
-	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-family: "Minion Pro";
 }
 .readings p {
 	float: left;
@@ -192,3 +183,62 @@ ul li ul {
 	font-size: 15px;
 }
 /***************/
+.week_pic {
+	width: 500px;
+	height: 310px;
+	float: left;
+	background-image: url(week.jpg);
+	margin: 0 0 0 30px;
+	box-shadow: 0 0 5px #666;
+}
+.day_pic {
+	width: 175px;
+	height: 310px;
+	float: left;
+	background-image: url(day.jpg);
+	margin: 0 0 0 40px;
+	box-shadow: 0 0 5px #666;
+}
+.search_pic {
+	width: 362px;
+	height: 250px;
+	background-image: url(search.jpg);
+	box-shadow: 0 0 5px #666;
+	float: left;
+	margin: 20px 0 0 30px;
+}
+.song_pic {
+	width: 340px;
+	height: 250px;
+	background-image: url(song.jpg);
+	box-shadow: 0 0 5px #666;
+	float: left;
+	margin: 20px 0 0 40px;
+}
+.homescreen_pic {
+	width: 144px;
+	height: 200px;
+	background-image: url(homescreen.jpg);
+	box-shadow: 0 0 5px #666;
+	float: left;
+	margin: 20px 0 0 100px;
+}
+.today_pic {
+	width: 150px;
+	height: 200px;
+	background-image: url(today.jpg);
+	box-shadow: 0 0 5px #666;
+	float: left;
+	margin: 20px 0 0 60px;
+}
+.recipe_pic {
+	width: 144px;
+	height: 200px;
+	background-image: url(recipe.jpg);
+	box-shadow: 0 0 5px #666;
+	float: left;
+	margin: 20px 0 0 60px;
+}
+.h1 h2 {
+	margin: 40px 0 0 0;
+}
