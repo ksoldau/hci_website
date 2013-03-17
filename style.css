@@ -44,7 +44,7 @@ body {
 /* navigation bar */
 .navigation_bar {
 	background-color: #C0C0C0;
-	height: 30px;
+	height: 32px;
 	width: 75%;
 	float: left;
 	marigin: 0 100px 0 0;
@@ -56,7 +56,7 @@ body {
 	overflow: hidden;
 }
 .nav_options {
-	margin: 2px 0 0 0;
+	margin: 3px 0 0 0;
 }
 /* nav links */
 ul {
@@ -96,6 +96,14 @@ ul li ul {
 	display: none;
 }
 /* ////////////////////////////// */
+.citation {
+	text-decoration: none;
+	color: #737373;
+}
+.citation:hover {
+	color: #E17D5B;
+}
+/* ////////////////////////////// */
 /* PAGE: readings */
 /* readings - navigation */
 .reading_nav_container {
@@ -128,6 +136,7 @@ ul li ul {
 .readings {
 	margin: 0 20px;
 	float: left;
+	font-family: "Avenir";
 }
 .readings h1 {
 	color: #A22A0E;
@@ -149,7 +158,7 @@ ul li ul {
 }
 .readings p {
 	float: left;
-	font-family: "Times New Roman";
+	font-family: "Avenir";
 	margin: 10px 0;
 	font-size: 17px;
 
