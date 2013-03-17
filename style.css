@@ -181,7 +181,7 @@ body {
 .readings p {
 	float: left;
 	font-family: "Avenir", Arial, Helvetica, sans-serif;
-	margin: 10px;
+	margin: 10px 30px;
 	font-size: 15px;
 	text-align: justify;
 }
