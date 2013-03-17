@@ -13,6 +13,7 @@ body {
 	width: 900px;
 	margin: auto;
 	background-color: #F3F3F3;
+	min-height: 100%;
 }
 .content {
 	width: 900px;
@@ -20,7 +21,7 @@ body {
 	box-shadow: 0 0 10px #666;
 	float: left;
 	padding: 0 0 30px 0;
-	margin: 0 0 60px 0;
+	margin: 0 0 0 0;
 }
 /* home page */
 /* name and email on top */
@@ -359,4 +360,50 @@ ol li {
 	font-family: "Avenir", Arial, Helvetica, sans-serif;
 	font-size: 15px;
 	margin: 0 0 10px 0;
+	width: 100%;
+}
+.list_in_reading li{
+	font-family: "Avenir", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	margin: 0 0 10px 0;
+	float: left;
+	width: 100%;
+}
+
+.line_picture {
+	width: 300px;
+	height: 402px;
+	background-image: url(images/afterhours_line.jpg);
+	float: left;
+	margin: 10px 250px 0 200px;
+}
+.pic_caption {
+	margin: 0 179px;
+	width: 340px;
+	text-align:center;
+	float: left;
+	font-family: "Avenir", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+	
+.area_picture {
+	width: 400px;
+	height: 299px;
+	background-image: url(images/afterhours_area.jpg);
+	float: left;
+	margin: 20px 0 0 140px;
+}
+.ethno_fix {
+	width: 730px;
+	margin: auto;
+}
+.hci {
+	height: 40px;
+	width: 100%;
+	float: left;
+	text-align: center;
+
+}
+.hci p {
+	margin: 8px 0;
 }
