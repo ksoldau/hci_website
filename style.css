@@ -27,9 +27,9 @@ body {
 /* name and email on top */
 .name {
 	color: #000;
-	font-family: "Heiti TC";
+	font-family: "Heiti TC", Arial, Helvetica, sans-serif;
 	font-size: 85px;
-	margin: 20px 0 20px 20px;
+	margin: 30px 0 30px 20px;
 	float: left;
 	width: 800px;
 	text-decoration: none;
@@ -104,8 +104,37 @@ ul li ul {
 	color: #E17D5B;
 }
 /* ////////////////////////////// */
+/* PAGE: about */
+.about_text {
+	width: 550px; 
+	float: left;
+	font-family: "Avenir", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	margin: 25px 10px 0 0;
+	text-align: justify;
+}
+.about_text p {
+	margin: 20px;
+}
+	
+.headshot {
+	background-image: url(picture200.jpg);
+	width: 200px;
+	height: 268px;
+	float: right;
+	margin: 50px 100px 0 0;
+	border: 1px solid #000;
+}
+
+	
+/* ////////////////////////////// */
 /* PAGE: readings */
 /* readings - navigation */
+.back_to_top {
+		margin: 10px 400px 0 400px;
+		float: left;
+
+}
 .reading_nav_container {
 	width: 75%;
 	height: 22px;
@@ -136,7 +165,7 @@ ul li ul {
 .readings {
 	margin: 0 20px;
 	float: left;
-	font-family: "Avenir";
+	font-family: "Avenir", Arial, Helvetica, sans-serif;
 }
 .readings h1 {
 	color: #A22A0E;
@@ -144,7 +173,7 @@ ul li ul {
 	float: left;
 	width: 788px;
 	font-size: 25px;
-	margin: 10px 0 0 30px;
+	margin: 10px 0 0 36px;
 }
 .readings .h1_text {
 	margin: 2px 0 0 20px;
@@ -154,12 +183,12 @@ ul li ul {
 	font-size: 25px;
 	margin: 15px 0 0 0;
 	float: left;
-	font-family: "Helvetica Neue";
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 .readings p {
 	float: left;
-	font-family: "Avenir";
-	margin: 10px 0;
-	font-size: 17px;
-
+	font-family: "Avenir", Arial, Helvetica, sans-serif;
+	margin: 10px;
+	font-size: 13px;
 }
+/***************/
