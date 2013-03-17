@@ -154,6 +154,7 @@ body {
 }
 /* */
 .readings {
+	width: 100%;
 	margin: 0 20px;
 	float: left;
 	font-family: "Devanagari Sangam MN", Arial, Helvetica, sans-serif;
@@ -407,3 +408,12 @@ ol li {
 	margin: 5px 0;
 }
 
+.readings ol { 
+width: 800px;
+float: left;
+}
+
+/* fdhasjkfda */
+.homework_page .list {
+	width: 700px;
+}
