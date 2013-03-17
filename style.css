@@ -98,7 +98,7 @@ body {
 /* ////////////////////////////// */
 .citation {
 	text-decoration: none;
-	color: #737373;
+	color: #A0A0A0;
 }
 .citation:hover {
 	color: #E17D5B;
@@ -339,9 +339,24 @@ body {
 	box-shadow: 0 0 5px #666;
 	margin: 0 10px 0 0;
 }
-.team_project_link {
+.team_project_link a{
 	width: 100%;
 	float: left;
-	text-decoration: none;
 	list-style: none;
+	margin: 30px 40px 10px 30px;
+	font-size: 30px;
+	color: #333;
+}
+.team_project_link a:current {}
+.team_project_link a:link {}
+.team_project_link a:hover {
+	color: #E17D5B;
+}
+.team_project_link a:active {}
+.team_project_link a:visited {}
+
+ol li {
+	font-family: "Avenir", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	margin: 0 0 10px 0;
 }
