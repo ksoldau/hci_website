@@ -130,7 +130,7 @@ body {
 /* readings - navigation */
 .list {
 	float: left;
-	width: 300px;
+	width: 600px;
 }
 .list li {
 	margin: 12px 0 0 0;
@@ -261,7 +261,7 @@ body {
 	box-shadow: 0 0 5px #666;
 	float: left;
 	margin: 20px 190px 0 100px;
-	padding: 
+	padding:
 }
 .shazam {
 	width: 100%;
@@ -335,7 +335,7 @@ body {
 }
 .timer_pic {
 	width: 400px;
-	height: 219px; 
+	height: 219px;
 	float: right;
 	background-image: url(images/timer.jpg);
 	box-shadow: 0 0 5px #666;
@@ -386,7 +386,7 @@ ol li {
 	font-family: "Avenir", Arial, Helvetica, sans-serif;
 	font-size: 15px;
 }
-	
+
 .area_picture {
 	width: 400px;
 	height: 299px;
@@ -408,7 +408,7 @@ ol li {
 	margin: 5px 0;
 }
 
-.readings ol { 
+.readings ol {
 width: 800px;
 float: left;
 }
